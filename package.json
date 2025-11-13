@@ -1,15 +1,14 @@
 {
-  "name": "blockchain-kamina",
+  "name": "$project-simple",
   "version": "1.0.0",
+  "description": "Interface simplifiée sans dépendances natives",
+  "main": "server-simple.js",
   "scripts": {
-    "compile": "npx hardhat compile",
-    "test": "npx hardhat test"
-  },
-  "devDependencies": {
-    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
-    "hardhat": "^2.19.0"
+    "start": "node server-simple.js",
+    "dev": "node server-simple.js",
+    "vercel-build": "echo 'Build réussi'"
   },
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^4.21.2"
   }
 }
